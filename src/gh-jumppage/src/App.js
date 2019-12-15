@@ -34,8 +34,8 @@ class ProjectComponent extends React.Component {
 		return courses.map(course => {
 			return (
 				<tr>
-					<td>{course.name}</td>
-					<td>{course.link}</td>
+					<td><strong>{course.name}</strong></td>
+					<td><a href={course.page} target="\_blank">{course.page}</a></td>
 					<td><a href={course.repo} target="\_blank">{course.repo}</a></td>
 				</tr>
 			);
