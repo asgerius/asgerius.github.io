@@ -1,12 +1,15 @@
-{
-	"study": [
-		{
-			"name": "Deep learning with Cellari",
-			"link": null,
-			"repo": "https://github.com/sorenmulli/alpha_cellari_imageseg"
-		}
-	]
-}
+[
+	{
+		"category": "Study",
+		"projects": [
+			{
+				"name": "Deep learning with Cellari",
+				"page": null,
+				"repo": "https://github.com/sorenmulli/alpha_cellari_imageseg"
+			}
+		]
+	}
+]
 
 
 
