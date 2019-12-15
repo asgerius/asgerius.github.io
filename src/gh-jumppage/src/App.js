@@ -1,26 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function Loading(props) {
+	return (
+		<div className="spinner-border" role="status">
+			<span class="sr-only">Loading...</span>
+		</div>
+	);
+}
+
+function FetchError(props) {
+	return (
+		<div className="alert alert-danger">
+			Unable to fetch data
+		</div>
+	);
+}
+
+
+class App extends React.Component {
+
+
+	render() {
+		return (
+			<div>
+				<h1>Jumppage</h1>
+				<table className="table">
+					<thead>
+						<tr>
+							<th colSpan="2">hello there</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+		);
+	}
 }
 
 export default App;
