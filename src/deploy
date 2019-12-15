@@ -1,0 +1,13 @@
+cd "$(dirname "$0")"
+
+cd gh-jumppage
+npm run build
+cd ..
+cp -R gh-jumppage/build/* ../
+
+git add -A
+git commit -m"New build"
+git push
+
+
+
