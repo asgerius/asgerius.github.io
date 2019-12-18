@@ -2,8 +2,23 @@ import React from 'react';
 import './App.css';
 import Request from "react-http-request";
 
+function cleanUrl(url, stripSub = false) {
+	if (!url) {
+		return;
+	}
+	if (url.startsWith("https://")) {
+		url = url.slice(8);
+	} else if (url.startsWith("http://")) {
+		url = url.slice(7);
+	}
+	if (stripSub && url.indexOf("/") > -1) {
+		const idx = url.indexOf("/");
+		url.slice(0, idx);
+	}
+	return url;
+}
+
 function Loading(props) {
-	console.log(props);
 	return (
 		<div className="spinner-border" role="status">
 			<span className="sr-only">Loading...</span>
@@ -31,12 +46,13 @@ class ProjectComponent extends React.Component {
 	}
 
 	renderRow(courses) {
-		return courses.map(course => {
+		return courses.projects.map((course, i) => {
 			return (
 				<tr>
-					<td><strong>{course.name}</strong></td>
-					<td><a href={course.page} target="\_blank">{course.page}</a></td>
-					<td><a href={course.repo} target="\_blank">{course.repo}</a></td>
+					<td><strong>{i === 0 ? courses.category : ""}</strong></td>
+					<td>{course.name}</td>
+					<td><a href={course.page} target="\_blank">{cleanUrl(course.page)}</a></td>
+					<td><a href={course.repo} target="\_blank">{cleanUrl(course.repo)}</a> {course.private ? "(private)" : null}</td>
 				</tr>
 			);
 		});
@@ -47,8 +63,7 @@ class ProjectComponent extends React.Component {
 		return this.state.projects.map(cat => {
 			return (
 				<tbody>
-					<tr><td colSpan="3">{cat.category}</td></tr>
-					{this.renderRow(this.state.projects.projects)}
+					{this.renderRow(cat)}
 				</tbody>
 			);
 		});
@@ -57,9 +72,10 @@ class ProjectComponent extends React.Component {
 	render() {
 		return (
 			<div>
-				<table className="table">
+				<table className="table table-responsive">
 					<thead>
 						<tr>
+							<th scope="row">Category</th>
 							<th scope="row">Project</th>
 							<th scope="row">Page</th>
 							<th scope="row">Repository</th>
@@ -78,12 +94,13 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Jumppage</h1>
+				<h1 className="pt-4">Jumppage</h1>
+				<p>The following is a list of all my major projects as well projects to which I have made contributions.</p>
+				<p><a href="https://github.com/asgerius/" target="\_blank">Github profile</a></p>
 				<Request
 					url="https://raw.githubusercontent.com/asgerius/asgerius.github.io/master/src/gh-jumppage/public/projects.json"
 					method="get"
 					accept="application/json"
-					verbose={true}
 				>
 					{
 						({error, result, loading}) => {
