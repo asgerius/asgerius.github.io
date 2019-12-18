@@ -3,9 +3,33 @@
 		"category": "Study",
 		"projects": [
 			{
-				"name": "Deep learning with Cellari",
+				"name": "DTU Kursusoversigt",
+				"page": "https://sorenmulli.github.io/dtucourses",
+				"repo": "https://github.com/sorenmulli/dtucourses",
+				"private": false
+			},
+			{
+				"name": "SegNet on Drone Images",
 				"page": null,
-				"repo": "https://github.com/sorenmulli/alpha_cellari_imageseg"
+				"repo": "https://github.com/sorenmulli/alpha_cellari_imageseg",
+				"private": false
+			},
+			{
+				"name": "Deep Reinforcement Learning on 2048",
+				"page": null,
+				"repo": null,
+				"private": false
+			}
+		]
+	},
+	{
+		"category": "Miscellaneous",
+		"projects": [
+			{
+				"name": "LaTeX calculator, packages, and utilities",
+				"page": null,
+				"repo": "https://github.com/asgerius/latex-utilities",
+				"private": true
 			}
 		]
 	}
