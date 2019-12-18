@@ -23,6 +23,17 @@
 		]
 	},
 	{
+		"category": "Work",
+		"projects": [
+			{
+				"name": "Alba Project Group Website",
+				"page": "https://albapg.com",
+				"repo": null,
+				"private": false
+			}
+		]
+	},
+	{
 		"category": "Miscellaneous",
 		"projects": [
 			{
