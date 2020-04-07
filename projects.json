@@ -19,6 +19,12 @@
 				"page": null,
 				"repo": null,
 				"private": false
+			},
+			{
+				"name": "Solving Rubik's Cube with Reinforcement Learning",
+				"page": "https://asgerius.github.io/rl-rubiks",
+				"repo": "https://github.com/asgerius/rl-rubiks",
+				"private": false
 			}
 		]
 	},
