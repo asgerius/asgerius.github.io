@@ -3,6 +3,7 @@ cd "$(dirname "$0")"
 cd gh-jumppage
 npm run build
 cd ..
+rm -f precache*
 cp -R gh-jumppage/build/* ../
 
 git add -A
