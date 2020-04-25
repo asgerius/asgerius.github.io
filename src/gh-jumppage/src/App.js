@@ -95,7 +95,6 @@ class App extends React.Component {
 		return (
 			<div>
 				<h1 className="pt-4">Jumppage</h1>
-				<p>The following is a list of all my major projects as well projects to which I have made contributions.</p>
 				<p><a href="https://github.com/asgerius/" target="\_blank">Github profile</a></p>
 				<Request
 					url="https://raw.githubusercontent.com/asgerius/asgerius.github.io/master/src/gh-jumppage/public/projects.json"

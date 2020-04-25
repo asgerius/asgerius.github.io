@@ -4,8 +4,8 @@
 		"projects": [
 			{
 				"name": "DTU Kursusoversigt",
-				"page": "https://sorenmulli.github.io/dtucourses",
-				"repo": "https://github.com/sorenmulli/dtucourses",
+				"page": "https://peleiden.github.io/dtucourses",
+				"repo": "https://github.com/peleiden/dtucourses",
 				"private": false
 			},
 			{
