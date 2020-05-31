@@ -15,15 +15,15 @@
 				"private": false
 			},
 			{
-				"name": "Deep Reinforcement Learning on 2048",
+				"name": "Attempting to solve 2048 with Policy Gradients",
 				"page": null,
 				"repo": "https://github.com/asgerius/alpha2048",
 				"private": false
 			},
 			{
 				"name": "Solving Rubik's Cube with Reinforcement Learning",
-				"page": "https://asgerius.github.io/rl-rubiks",
-				"repo": "https://github.com/asgerius/rl-rubiks",
+				"page": "https://peleiden.github.io/rl-rubiks",
+				"repo": "https://github.com/peleiden/rl-rubiks",
 				"private": false
 			}
 		]
@@ -51,6 +51,4 @@
 		]
 	}
 ]
-
-
 
