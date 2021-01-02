@@ -43,6 +43,12 @@
 		"category": "Miscellaneous",
 		"projects": [
 			{
+				"name": "pelutils: Open source utility module for Python",
+				"page": null,
+				"repo": "https://github.com/peleiden/pelutils",
+				"private": false
+			},
+			{
 				"name": "LaTeX calculator, packages, and utilities",
 				"page": null,
 				"repo": "https://github.com/asgerius/latex-utilities",
