@@ -25,6 +25,18 @@
 				"page": "https://peleiden.github.io/rl-rubiks",
 				"repo": "https://github.com/peleiden/rl-rubiks",
 				"private": false
+			},
+			{
+				"name": "DaLUKE: A Danish LUKE achieving SOTA on NER",
+				"page": "https://peleiden.github.io/bug-free-guacamole/main.pdf",
+				"repo": "https://github.com/peleiden/daluke",
+				"private": false
+			},
+			{
+				"name": "Investigating Stack Overflow",
+				"page": "https://asgerius.github.io/css-project",
+				"repo": "https://github.com/asgerius/css-project",
+				"private": false
 			}
 		]
 	},
