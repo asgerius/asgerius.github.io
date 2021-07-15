@@ -97,7 +97,7 @@ class App extends React.Component {
 				<h1 className="pt-4">Jumppage</h1>
 				<p><a href="https://github.com/asgerius/" target="\_blank">Github profile</a></p>
 				<Request
-					url="https://raw.githubusercontent.com/asgerius/asgerius.github.io/master/src/gh-jumppage/public/projects.json"
+					url="https://raw.githubusercontent.com/asgerius/asgerius.github.io/master/projects.json"
 					method="get"
 					accept="application/json"
 				>
