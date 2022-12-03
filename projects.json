@@ -3,39 +3,45 @@
 		"category": "Study",
 		"projects": [
 			{
+				"name": "DaLUKE: A Danish knowledge-enhanced language model",
+				"page": "https://peleiden.github.io/bug-free-guacamole/main.pdf",
+				"repo": "https://github.com/peleiden/daluke",
+				"private": false
+			},
+			{
+				"name": "Deep State Search: A fast, state-of-the-art Rubik's cube solver using deep reinforcement learning",
+				"page": null,
+				"repo": "https://github.com/asgerius/deepstatesearch",
+				"private": false
+			},
+			{
 				"name": "DTU Kursusoversigt",
 				"page": "https://peleiden.github.io/dtucourses",
 				"repo": "https://github.com/peleiden/dtucourses",
 				"private": false
 			},
 			{
-				"name": "SegNet on Drone Images",
+				"name": "SegNet applied on drone images",
 				"page": null,
 				"repo": "https://github.com/sorenmulli/alpha_cellari_imageseg",
 				"private": false
 			},
 			{
-				"name": "Attempting to solve 2048 with Policy Gradients",
-				"page": null,
-				"repo": "https://github.com/asgerius/alpha2048",
-				"private": false
-			},
-			{
-				"name": "Solving Rubik's Cube with Reinforcement Learning",
+				"name": "Solving Rubik's cube with reinforcement learning",
 				"page": "https://peleiden.github.io/rl-rubiks",
 				"repo": "https://github.com/peleiden/rl-rubiks",
 				"private": false
 			},
 			{
-				"name": "DaLUKE: A Danish Knowledge-Enhanced Language Model",
-				"page": "https://peleiden.github.io/bug-free-guacamole/main.pdf",
-				"repo": "https://github.com/peleiden/daluke",
+				"name": "Graph Overflow: Investigating Stack Overflow",
+				"page": "https://asgerius.github.io/css-project",
+				"repo": "https://github.com/asgerius/css-project",
 				"private": false
 			},
 			{
-				"name": "Investigating Stack Overflow",
-				"page": "https://asgerius.github.io/css-project",
-				"repo": "https://github.com/asgerius/css-project",
+				"name": "Attempting to solve 2048 with policy gradients",
+				"page": null,
+				"repo": "https://github.com/asgerius/alpha2048",
 				"private": false
 			}
 		]
@@ -44,7 +50,7 @@
 		"category": "Work",
 		"projects": [
 			{
-				"name": "Alba Project Group Website",
+				"name": "Alba Project Group website",
 				"page": "https://albapg.com",
 				"repo": null,
 				"private": false
@@ -54,6 +60,12 @@
 	{
 		"category": "Miscellaneous",
 		"projects": [
+			{
+				"name": "pelutils: An open source utility library for Python",
+				"page": "https://pypi.org/project/pelutils/",
+				"repo": "https://github.com/peleiden/pelutils",
+				"private": false
+			},
 			{
 				"name": "LaTeX calculator, packages, and utilities",
 				"page": null,
