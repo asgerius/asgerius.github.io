@@ -77,7 +77,7 @@ class ProjectComponent extends React.Component {
 						<tr>
 							<th scope="row">Category</th>
 							<th scope="row">Project</th>
-							<th scope="row">Page</th>
+							<th scope="row">Paper / Page</th>
 							<th scope="row">Repository</th>
 						</tr>
 					</thead>

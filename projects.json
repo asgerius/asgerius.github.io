@@ -3,14 +3,20 @@
 		"category": "Study",
 		"projects": [
 			{
-				"name": "DaLUKE: A Danish knowledge-enhanced language model",
+				"name": "Float-zone Process Modelling Using Machine Learning",
+				"page": "https://asgerius.github.io/frozone-paper/main.pdf",
+				"repo": "https://github.com/asgerius/frozone",
+				"private": false
+			},
+			{
+				"name": "DaLUKE: A Danish Knowledge-enhanced Language Model",
 				"page": "https://peleiden.github.io/bug-free-guacamole/main.pdf",
 				"repo": "https://github.com/peleiden/daluke",
 				"private": false
 			},
 			{
-				"name": "Deep State Search: A fast, state-of-the-art Rubik's cube solver using deep reinforcement learning",
-				"page": null,
+				"name": "Efficiently Solving Rubik's Cube Using Deep Reinforcement Learning",
+				"page": "https://nx5746.your-storageshare.de/s/irD7JR2JEok4kJL/download/index.pdf",
 				"repo": "https://github.com/asgerius/deepstatesearch",
 				"private": false
 			},
@@ -21,13 +27,13 @@
 				"private": false
 			},
 			{
-				"name": "SegNet applied on drone images",
+				"name": "SegNet Applied to Drone images",
 				"page": null,
 				"repo": "https://github.com/sorenmulli/alpha_cellari_imageseg",
 				"private": false
 			},
 			{
-				"name": "Solving Rubik's cube with reinforcement learning",
+				"name": "Solving Rubik's Cube with Reinforcement Learning",
 				"page": "https://peleiden.github.io/rl-rubiks",
 				"repo": "https://github.com/peleiden/rl-rubiks",
 				"private": false
@@ -47,21 +53,10 @@
 		]
 	},
 	{
-		"category": "Work",
-		"projects": [
-			{
-				"name": "Alba Project Group website",
-				"page": "https://albapg.com",
-				"repo": null,
-				"private": false
-			}
-		]
-	},
-	{
 		"category": "Miscellaneous",
 		"projects": [
 			{
-				"name": "pelutils: An open source utility library for Python",
+				"name": "pelutils: An Open Source Utility Library for Python",
 				"page": "https://pypi.org/project/pelutils/",
 				"repo": "https://github.com/peleiden/pelutils",
 				"private": false
