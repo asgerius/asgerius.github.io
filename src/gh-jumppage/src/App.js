@@ -45,25 +45,22 @@ class ProjectComponent extends React.Component {
 		};
 	}
 
-	renderRow(courses) {
-		return courses.projects.map((course, i) => {
-			return (
-				<tr>
-					<td><strong>{i === 0 ? courses.category : ""}</strong></td>
-					<td>{course.name}</td>
-					<td><a href={course.page} target="\_blank">{cleanUrl(course.page)}</a></td>
-					<td><a href={course.repo} target="\_blank">{cleanUrl(course.repo)}</a> {course.private ? "(private)" : null}</td>
-				</tr>
-			);
-		});
+	renderRow(project) {
+		return (
+			<tr>
+				<td>{project.name}</td>
+				<td><a href={project.page} target="\_blank">{cleanUrl(project.page)}</a></td>
+				<td><a href={project.repo} target="\_blank">{cleanUrl(project.repo)}</a> {project.private ? "(private)" : null}</td>
+			</tr>
+		);
 	}
 
 	renderTableBody() {
 
-		return this.state.projects.map(cat => {
+		return this.state.projects.map(project => {
 			return (
 				<tbody>
-					{this.renderRow(cat)}
+					{this.renderRow(project)}
 				</tbody>
 			);
 		});
@@ -75,7 +72,6 @@ class ProjectComponent extends React.Component {
 				<table className="table table-responsive">
 					<thead>
 						<tr>
-							<th scope="row">Category</th>
 							<th scope="row">Project</th>
 							<th scope="row">Paper / Page</th>
 							<th scope="row">Repository</th>

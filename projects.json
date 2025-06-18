@@ -1,73 +1,39 @@
 [
 	{
-		"category": "Study",
-		"projects": [
-			{
-				"name": "Float-zone Process Modelling Using Machine Learning",
-				"page": "https://frozone.asgerius.com/main.pdf",
-				"repo": "https://github.com/asgerius/frozone",
-				"private": false
-			},
-			{
-				"name": "DaLUKE: A Danish Knowledge-enhanced Language Model",
-				"page": "https://peleiden.github.io/bug-free-guacamole/main.pdf",
-				"repo": "https://github.com/peleiden/daluke",
-				"private": false
-			},
-			{
-				"name": "Efficiently Solving Rubik's Cube Using Deep Reinforcement Learning",
-				"page": "https://nx5746.your-storageshare.de/s/irD7JR2JEok4kJL/download/index.pdf",
-				"repo": "https://github.com/asgerius/deepstatesearch",
-				"private": false
-			},
-			{
-				"name": "DTU Kursusoversigt",
-				"page": "https://peleiden.github.io/dtucourses",
-				"repo": "https://github.com/peleiden/dtucourses",
-				"private": false
-			},
-			{
-				"name": "SegNet Applied to Drone images",
-				"page": null,
-				"repo": "https://github.com/sorenmulli/alpha_cellari_imageseg",
-				"private": false
-			},
-			{
-				"name": "Solving Rubik's Cube with Reinforcement Learning",
-				"page": "https://peleiden.github.io/rl-rubiks",
-				"repo": "https://github.com/peleiden/rl-rubiks",
-				"private": false
-			},
-			{
-				"name": "Graph Overflow: Investigating Stack Overflow",
-				"page": "https://asgerius.github.io/css-project",
-				"repo": "https://github.com/asgerius/css-project",
-				"private": false
-			},
-			{
-				"name": "Attempting to solve 2048 with policy gradients",
-				"page": null,
-				"repo": "https://github.com/asgerius/alpha2048",
-				"private": false
-			}
-		]
+		"name": "pelutils: An Open Source Utility Library for Python",
+		"page": "https://pypi.org/project/pelutils/",
+		"repo": "https://github.com/peleiden/pelutils",
+		"private": false
 	},
 	{
-		"category": "Miscellaneous",
-		"projects": [
-			{
-				"name": "pelutils: An Open Source Utility Library for Python",
-				"page": "https://pypi.org/project/pelutils/",
-				"repo": "https://github.com/peleiden/pelutils",
-				"private": false
-			},
-			{
-				"name": "LaTeX calculator, packages, and utilities",
-				"page": null,
-				"repo": "https://github.com/asgerius/latex-utilities",
-				"private": true
-			}
-		]
+		"name": "Float-zone Process Modelling Using Machine Learning",
+		"page": "https://frozone.asgerius.com/main.pdf",
+		"repo": "https://github.com/asgerius/frozone",
+		"private": false
+	},
+	{
+		"name": "DaLUKE: A Danish Knowledge-enhanced Language Model",
+		"page": "https://peleiden.github.io/bug-free-guacamole/main.pdf",
+		"repo": "https://github.com/peleiden/daluke",
+		"private": false
+	},
+	{
+		"name": "Efficiently Solving Rubik's Cube Using Deep Reinforcement Learning",
+		"page": "https://nx5746.your-storageshare.de/s/irD7JR2JEok4kJL/download/index.pdf",
+		"repo": "https://github.com/asgerius/deepstatesearch",
+		"private": false
+	},
+	{
+		"name": "DTU Kursusoversigt",
+		"page": "https://peleiden.github.io/dtucourses",
+		"repo": "https://github.com/peleiden/dtucourses",
+		"private": false
+	},
+	{
+		"name": "Graph Overflow: Investigating Stack Overflow",
+		"page": "https://asgerius.github.io/css-project",
+		"repo": "https://github.com/asgerius/css-project",
+		"private": false
 	}
 ]
 
